@@ -35,7 +35,7 @@ config PACKAGE_$(PKG_NAME)_INCLUDE_Shadowsocks_socks
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_ShadowsocksR_socks
 	bool "Include ShadowsocksR Socks (ssr-local)"
-	default y
+	default n
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_V2ray
 	bool "Include V2ray"
@@ -47,7 +47,7 @@ config PACKAGE_$(PKG_NAME)_INCLUDE_Trojan
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_Brook
 	bool "Include Brook"
-	default y
+	default n
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_kcptun
 	bool "Include kcptun"
@@ -55,7 +55,7 @@ config PACKAGE_$(PKG_NAME)_INCLUDE_kcptun
 
 config PACKAGE_$(PKG_NAME)_INCLUDE_haproxy
 	bool "Include haproxy"
-	default y
+	default n
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_ChinaDNS_NG
 	bool "Include ChinaDNS-NG"
@@ -71,11 +71,11 @@ config PACKAGE_$(PKG_NAME)_INCLUDE_dns2socks
 	
 config PACKAGE_$(PKG_NAME)_INCLUDE_v2ray-plugin
 	bool "Include v2ray-plugin (Shadowsocks plugin)"
-	default y
+	default n
 
 config PACKAGE_$(PKG_NAME)_INCLUDE_simple-obfs
 	bool "Include simple-obfs (Shadowsocks plugin)"
-	default y
+	default n
 
 endmenu
 endef
